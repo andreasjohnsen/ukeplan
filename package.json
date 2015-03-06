@@ -1,0 +1,25 @@
+{
+  "name": "ukeplan",
+  "version": "1.0.0",
+  "description": "Visning av ukeplan for Linnea",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreasjohnsen/ukeplan.git"
+  },
+  "author": "Andreas Rübner Johnsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreasjohnsen/ukeplan/issues"
+  },
+  "homepage": "https://github.com/andreasjohnsen/ukeplan",
+  "dependencies": {
+    "azure-storage": "^0.4.2",
+    "cheerio": "^0.18.0",
+    "require": "^2.4.17"
+  }
+}
